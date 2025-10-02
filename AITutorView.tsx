@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import { streamChatResponse } from '../services/geminiService';
-import type { ChatMessage, Question } from '../types';
+import { streamChatResponse } from './services/geminiService';
+import type { ChatMessage, Question } from './types';
 
 interface AITutorViewProps {
   initialQuestion: Question | null;

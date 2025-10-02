@@ -1,0 +1,16 @@
+{
+  "name": "Smearn AI Learning Hub",
+  "short_name": "Smearn",
+  "description": "An AI-powered learning platform designed to help students prepare for exams like JAMB and WAEC with access to past questions, flashcards, and an interactive AI tutor.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f0f4f8",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

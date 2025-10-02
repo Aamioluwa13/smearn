@@ -1,13 +1,13 @@
 
 import React, { useState, useCallback } from 'react';
-import Sidebar from './components/Sidebar';
-import PastQuestionsView from './components/PastQuestionsView';
-import AITutorView from './components/AITutorView';
-import DashboardView from './components/DashboardView';
-import TutorialVideosView from './components/TutorialVideosView';
-import FlashcardsView from './components/FlashcardsView';
-import AuthView from './components/AuthView';
-import TextbooksView from './components/TextbooksView';
+import Sidebar from './Sidebar';
+import PastQuestionsView from './PastQuestionsView';
+import AITutorView from './AITutorView';
+import DashboardView from './DashboardView';
+import TutorialVideosView from './TutorialVideosView';
+import FlashcardsView from './FlashcardsView';
+import AuthView from './AuthView';
+import TextbooksView from './TextbooksView';
 import { View } from './types';
 import type { Question } from './types';
 

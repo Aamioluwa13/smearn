@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
-import { FLASHCARDS_DATA } from '../constants';
-import { Subject } from '../types';
-import type { Flashcard } from '../types';
+import { FLASHCARDS_DATA } from './constants';
+import { Subject } from './types';
+import type { Flashcard } from './types';
 
 const FlashcardsView: React.FC = () => {
   const [selectedSubject, setSelectedSubject] = useState<Subject>(Subject.MATHEMATICS);
